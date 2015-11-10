@@ -24,8 +24,21 @@
     text-align: center;
 }
 
+.masthead-two {
+    text-align: right;
+    margin-right: 2em;
+}
 .pug {
     width: 300px;
+    opacity:0.7;
+    box-shadow: 0 0 0px #000000;
+}   
+
+.pug:hover {
+  
+  border-radius: 20px;
+    background-color: none;
+    opacity: 1;
 }
 
 .body {
@@ -36,6 +49,8 @@
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 30px;
     color: #73c8b9;
+    padding: 0;
+    margin: 0;
 }
 
 .secondinfo {
@@ -48,5 +63,53 @@
 }
 
 .title {
-    width: 300px;
+    width: 400px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title-2 {
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-size: 3em;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+}
+
+.navlinks {
+    color: black;
+    font-size: 2em;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li {
+ display: inline-block;
+}
+
+.script {
+    font-size: 9px;
+    padding: .5em;
+    margin: 1.5em;
+    background-color: #73c8b9;
+    color: white;
+    text-align: left;
 }
