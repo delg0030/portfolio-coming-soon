@@ -56,6 +56,8 @@
 .secondinfo {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .hr {
@@ -69,11 +71,9 @@
     padding: 0;
 }
 
-
-.title-2 {
-    width: 600px;
-    margin: 0;
-    padding: 0;
+.image-flex {
+ width: 100%;
+display: block;
 }
 
 .name {
@@ -95,7 +95,7 @@
 
 .navlinks {
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Pathway Gothic One', sans-serif;
     text-decoration: none;
     display: block;
